@@ -5,7 +5,8 @@
             "Sid": "Stmt1499264169000",
             "Effect": "Deny",
             "Action": [
-                "cloudtrail:DeleteTrail"
+                "cloudtrail:DeleteTrail",
+                "cloudtrail:StopLogging"
             ],
             "Resource": [
                 "*"
