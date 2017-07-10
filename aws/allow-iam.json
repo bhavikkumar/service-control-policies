@@ -11,7 +11,8 @@
                 "aws-portal:ViewPaymentMethods",
                 "aws-portal:ViewUsage",
                 "organizations:Describe*",
-                "organizations:List*"
+                "organizations:List*",
+                "cloudformation:*"
             ],
             "Resource": [
                 "*"
