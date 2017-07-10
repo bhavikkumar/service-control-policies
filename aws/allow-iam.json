@@ -9,7 +9,9 @@
                 "aws-portal:ViewAccount",
                 "aws-portal:ViewBilling",
                 "aws-portal:ViewPaymentMethods",
-                "aws-portal:ViewUsage"
+                "aws-portal:ViewUsage",
+                "organizations:Describe*",
+                "organizations:List*"
             ],
             "Resource": [
                 "*"
