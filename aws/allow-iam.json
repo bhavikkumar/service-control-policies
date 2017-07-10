@@ -12,7 +12,7 @@
                 "aws-portal:ViewUsage",
                 "organizations:Describe*",
                 "organizations:List*",
-                "cloudformation:*"
+                "cloudformation:*",
                 "s3:*"
             ],
             "Resource": [
