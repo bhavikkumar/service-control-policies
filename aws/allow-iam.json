@@ -13,7 +13,8 @@
                 "organizations:Describe*",
                 "organizations:List*",
                 "cloudformation:*",
-                "s3:*"
+                "s3:*",
+                "sns:ListTopics"
             ],
             "Resource": [
                 "*"
