@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1499264169000",
+            "Effect": "Deny",
+            "Action": [
+                "cloudtrail:DeleteTrail",
+                "cloudtrail:StopLogging"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
